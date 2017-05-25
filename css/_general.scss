@@ -1,0 +1,13 @@
+html, body {
+  overflow-x:hidden
+}
+
+body {
+  background-color: lighten(#304452, 10);
+  font-family: 'Fira Sans', Arial, sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+  color: $textColor;
+  display: flex;
+  flex-direction: column;
+}
